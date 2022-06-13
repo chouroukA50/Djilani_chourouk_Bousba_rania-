@@ -77,11 +77,6 @@ if(isset($_GET['id'])){
             <input type="date" name="date">
          </div>
 
-         <div class="inputBox">
-            <span>heure :</span>
-            <input type="heure" placeholder="l'heure de l'envois de l'article" name="l'heure de reservation">
-         </div>
-
       </div>
 
       <input type="submit" value="résérver" class="btn" name="send">
