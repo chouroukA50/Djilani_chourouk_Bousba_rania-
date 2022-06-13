@@ -21,7 +21,7 @@
 
 include 'configg.php';
 session_start();
-$unique_id=$_SESSION['unique_id'];
+
 
 	?>
 
