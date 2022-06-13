@@ -56,11 +56,11 @@ session_start();
 
 
       <h1 class="name"><?php echo $result['name']; ?></h1>
-      <h1 class="adress"><?php echo $result['adress']; ?></h1>
+      <h1 class="adress"> <i class="fa fa-map-marker info"></i>   <?php echo $result['adress']; ?></h1>
       <br>
-      <h1 class="email"><?php echo $result['email']; ?></h1>
+      <h1 class="email"> <i class="fa fa-envelope info"> </i>    <?php echo $result['email']; ?></h1>
       <br>
-      <h1 class="numero"><?php echo $result['numero']; ?></h1>
+      <h1 class="numero"> <i class="fa fa-phone info"></i>    <?php echo $result['numero']; ?></h1>
 
       
 
