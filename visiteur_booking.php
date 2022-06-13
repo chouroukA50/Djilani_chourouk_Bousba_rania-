@@ -10,11 +10,12 @@ if(isset($_GET['id'])){
       $message = $_POST['message'];
       $nombre = $_POST['nombre'];
       $date = $_POST['date'];
+      $heure = $_POST['heure'];
       $articles_nom = $_POST['articles_nom'];
       $book=$_GET['id'];
       
-      $request = "INSERT INTO `réservation`(name, email, phone, number, message, date, articles_nom,id_don) 
-      VALUES('$name','$email','$phone','$message','$nombre','$date','$articles_nom','$book') ";
+      $request = "INSERT INTO `réservation`(name, email, phone, number, message, date, heure, articles_nom,id_don) 
+      VALUES('$name','$email','$phone','$message','$nombre','$date','$articles_nom' ,'$heure','$book') ";
       mysqli_query($connection, $request);
 
       header('location:home2.php'); 
