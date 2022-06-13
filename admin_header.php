@@ -18,8 +18,8 @@ if(isset($message)){
       <a href="admin_page.php" class="logo">Admin<span>Panneau</span></a>
 
       <nav class="navbar">
-         <a href="admin_page.php">Accueil</a>
-         <a href="admin_users.php">Donneurs</a>
+         <a href="admin_page.php"class="fa-solid fa-house"><i>Accueil</i> </a>
+         <a href="admin_users.php" class="fa fa-user-md"> <i> Donneurs</i></a>
 
       </nav>
 
